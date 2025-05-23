@@ -1,0 +1,30 @@
+name: ai4beg
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - jupyter
+  - ipython
+  - torchvision==0.21.0+cu126
+  - scikit-learn
+  - scipy=1.13
+  - setuptools
+  - matplotlib=3.9
+  - requests=2.32
+  - conda-forge::opencv
+  - numpy==1.26.4
+  - pip
+  - ipywidgets
+  - ipykernel
+  - python
+  - jieba
+  - wordcloud
+  - transformers
+  - tokenizers
+  - pytorch
+  - tabulate
+  - openpyxl[version='>=0.0.1']
+prefix: D:\miniconda\envs\ai4beg
