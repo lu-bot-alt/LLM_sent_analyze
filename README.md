@@ -175,5 +175,5 @@
 ---
 
 **贡献者:** lu-bot-alt
-**Github:** 
+**Github:** https://github.com/lu-bot-alt/LLM_sent_analyze
 **最后更新:** 2025-05-23
