@@ -106,7 +106,7 @@
     *   调整生成参数（如`max_length`, `num_beams`）以优化摘要质量。
     *   **处理内核崩溃问题，优先排查显存不足，并学习如何监控GPU资源。**
 
-### 3.8. 结果可视化 (Module 8)
+### 3.8. 结果可视化(未完成) (Module 8)
 *   **重点:**
     *   综合运用`matplotlib`和`seaborn`绘制各种图表，如折线图、柱状图、箱线图等。
     *   确保图表清晰、美观，并能有效传达分析结果。
@@ -165,7 +165,52 @@
 *   学习模型微调（Fine-tuning）技术，以在特定领域数据上提升模型性能。
 *   将所学方法应用于实际研究课题或业务场景。
 *   探索更高级的文本分析技术，如关系抽取、事件抽取、文本生成评估等。
+---
+## 引用
+1. 情感分析 uer/roberta-base-finetuned-dianping-chinese：
+@article{liu2019roberta,
+  title={Roberta: A robustly optimized bert pretraining approach},
+  author={Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+  journal={arXiv preprint arXiv:1907.11692},
+  year={2019}
+}
 
+@article{zhang2017encoding,
+  title={Which encoding is the best for text classification in chinese, english, japanese and korean?},
+  author={Zhang, Xiang and LeCun, Yann},
+  journal={arXiv preprint arXiv:1708.02657},
+  year={2017}
+}
+
+@article{zhao2019uer,
+  title={UER: An Open-Source Toolkit for Pre-training Models},
+  author={Zhao, Zhe and Chen, Hui and Zhang, Jinbin and Zhao, Xin and Liu, Tao and Lu, Wei and Chen, Xi and Deng, Haotang and Ju, Qi and Du, Xiaoyong},
+  journal={EMNLP-IJCNLP 2019},
+  pages={241},
+  year={2019}
+}
+
+@article{zhao2023tencentpretrain,
+  title={TencentPretrain: A Scalable and Flexible Toolkit for Pre-training Models of Different Modalities},
+  author={Zhao, Zhe and Li, Yudong and Hou, Cheng and Zhao, Jing and others},
+  journal={ACL 2023},
+  pages={217},
+  year={2023}
+
+2. NER 实体识别：ckiplab/bert-base-chinese-ner
+https://github.com/ckiplab/ckip-transformers
+
+3. 文本总结：csebuetnlp/mT5_m2o_chinese_simplified_crossSum
+@article{hasan2021crosssum,
+  author    = {Tahmid Hasan and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yuan-Fang Li and Yong-bin Kang and Rifat Shahriyar},
+  title     = {CrossSum: Beyond English-Centric Cross-Lingual Abstractive Text Summarization for 1500+ Language Pairs},
+  journal   = {CoRR},
+  volume    = {abs/2112.08804},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.08804},
+  eprinttype = {arXiv},
+  eprint    = {2112.08804}
+}
 ---
 
 **贡献者:** lu-bot-alt
